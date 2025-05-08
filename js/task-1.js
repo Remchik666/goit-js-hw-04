@@ -5,9 +5,9 @@ function isEnoughCapacity(products, containerSize) {
         sum += value;
     }
     if (sum > containerSize) {
-        message = Boolean(0);
+        message = "false";
     } else { 
-        message = Boolean("true");
+        message = "true";
         }
     return message;
 }
